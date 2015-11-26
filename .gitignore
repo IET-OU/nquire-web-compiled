@@ -1,2 +1,5 @@
+
 nquireit.properties
-nquireit-tests.properties
+
+*$*.class
+*BAK*
