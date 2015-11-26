@@ -1,6 +1,6 @@
 <web-app version="2.4"
 	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
 	<display-name>nQuire-it</display-name>
@@ -14,10 +14,11 @@
             <param-name>encoding</param-name>
             <param-value>UTF-8</param-value>
         </init-param>
-        <init-param>
+        <!--<init-param>
             <param-name>forceEncoding</param-name>
             <param-value>true</param-value>
-        </init-param>
+        </init-param>-->
+        <async-supported>true</async-supported>
     </filter>
 
     <filter-mapping>
