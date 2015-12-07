@@ -3,3 +3,8 @@ nquireit.properties
 
 *$*.class
 *BAK*
+
+classes/org/greengin/nquireit/logic/mail/
+
+
+#End.

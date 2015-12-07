@@ -33,6 +33,7 @@
         <property name="maxUploadSize" value="10000000"/>
     </bean>
 
+    <!-- Do we need "filterDao" here? -->
     <bean id="filterDao"
           class="org.greengin.nquireit.dao.FilterDao">
     </bean>
