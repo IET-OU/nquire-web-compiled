@@ -1,3 +1,7 @@
+#
+# nQuire-it - configuration for backend and web-service API.
+#
+
 database.username=senseit
 database.password=senseit
 database.url=jdbc:mysql://localhost:8889/senseit?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8
