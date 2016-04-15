@@ -1,14 +1,33 @@
+#
+# nQuire-it - configuration for backend and web-service API.
+#
+
 database.username=senseit
 database.password=senseit
-database.url=jdbc:mysql://localhost/senseit
+database.url=jdbc:mysql://localhost:8889/senseit?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8
 persistence.unit=nquire-it-jpa
 
 server.appUrl=http://localhost
+server.smtpHost=localhost
 server.proxyHost=
 server.proxyPort=
+
+security.encryptPassword=password
+security.encryptSalt=salt
+security.encodingSecret=secret
 
 facebook.clientId=id
 facebook.clientSecret=secret
 
 google.consumerKey=key
 google.consumerSecret=secret
+
+twitter.consumerKey=key
+twitter.consumerSecret=secret
+
+# reCaptcha site key - see: 'static/src/js/app/config.js'
+recaptcha.siteKey=key
+recaptcha.secretKey=secret
+
+
+#End.

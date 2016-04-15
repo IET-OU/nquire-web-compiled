@@ -1,2 +1,10 @@
+
 nquireit.properties
-nquireit-tests.properties
+
+*$*.class
+*BAK*
+
+#classes/org/greengin/nquireit/logic/mail/
+
+
+#End.

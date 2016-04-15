@@ -17,7 +17,7 @@
     <bean id="rememberMeServices"
           class="org.springframework.security.web.authentication.rememberme.TokenBasedRememberMeServices">
         <property name="userDetailsService" ref="userService"/>
-        <property name="tokenValiditySeconds" value="3600"/>
+        <property name="tokenValiditySeconds" value="3600"/><!--VAR: tokenValiditySeconds (NDF) -->
         <property name="cookieName" value="NQUIRE_IT_TOKEN"/>
         <property name="key" value="xxxxxxx"/>
     </bean>
