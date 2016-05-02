@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
-
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
     <title>nQuire-it | OAuth login</title>
     <link rel="stylesheet" href="/css/nquire-it-bootstrap.css" type='text/css'/>
@@ -13,8 +12,8 @@
     <div id="header">
         <div id="header-content">
             <div id="logo-container">
-                <a href="/#/home" target="_blank">
-                    <img src="/css/images/nquire-it-logo.jpg"/>
+                <a href="/#/home">
+                    <img src="/css/images/nquire-it-logo.jpg" alt="nQuire-it home" title="nQuire-it home"/>
                 </a>
             </div>
         </div>
@@ -23,8 +22,8 @@
     <div class="main-content-section">
         <div class="main-content">
             <div class="login-container">
-                <div class="login-header">OAuth sign in</div>
-                <div class="login-content">
+                <div class="login-header" role="header" aria-level="1">OAuth sign in</div>
+                <div class="login-content" role="alert">
                     <p th:if="${provider_name}">
                         It was not possible to sign in with
                         <span th:text="${provider_name}"></span>
