@@ -4,7 +4,7 @@
 
 database.username=senseit
 database.password=senseit
-database.url=jdbc:mysql://localhost:8889/senseit?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8
+database.url=jdbc:mysql://localhost:8889/senseit?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8
 persistence.unit=nquire-it-jpa
 
 server.appUrl=http://localhost
