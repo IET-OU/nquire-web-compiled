@@ -1,3 +1,4 @@
+
 [![License][gpl-icon]][LICENSE]
 
 
@@ -21,19 +22,20 @@ Report bugs via:
 nQuire-it is released under the GPLv3 licence. See [LICENSE][] for more details.
 
 
---
+---
 
 Contributors:  [@evilfier][] (original developer), [@richlove1][], [@nfreear][].
 
 ---
-© 2014-2016 The Open University ([Institute of Educational Technology][iet]).
+© 2014-2018 [The Open University][ou] ([Institute of Educational Technology][iet]).
 
 
 [`IET-OU/nquire-web-source`]: https://github.com/IET-OU/nquire-web-source
 [`IET-OU/nquire-web-source/issues`]: https://github.com/IET-OU/nquire-web-source/issues
+[ou]: http://www.open.ac.uk/
 [iet]: http://iet.open.ac.uk/
 [gpl]: https://gnu.org/licenses/gpl.html
-[LICENSE]: https://github.com/IET-OU/nquire-web-source/blob/master/LICENSE.txt
+[LICENSE]: https://github.com/IET-OU/nquire-web-source/blob/1.2-branch/LICENSE.txt
     "GNU General Public License 3.0 onwards [GPL-3.0+]"
 [gpl-icon]: https://img.shields.io/badge/license-GLP--3.0%2B-blue.svg
 
