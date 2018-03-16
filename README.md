@@ -16,6 +16,20 @@ Report bugs via:
 
 * GitHub: [`IET-OU/nquire-web-source/issues`][]
 
+## Code location
+
+On Redhat, the Java application code will probably be at:
+
+```
+/var/lib/tomcat/webapps/ROOT/WEB-INF
+/usr/share/tomcat/webapps/ROOT/WEB-INF  # sym-link
+```
+
+The frontend Angularjs code is probably in:
+
+```
+/var/www/nquire-web-source/
+```
 
 ## Licence
 
