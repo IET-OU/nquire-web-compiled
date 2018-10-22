@@ -12,6 +12,16 @@
 
     <display-name>nQuire-it</display-name>
 
+    <!--
+      Fix Spot-it image-upload bug [IET-OU/nquire-web-source/issues/64]
+      Related: https://confluence.atlassian.com/confkb/could-not-initialize-class-sun-awt-image-integerinterleavedraster-when-resizing-an-image-200709986.html
+    -->
+    <env-entry>
+        <env-entry-name>java.awt.headless</env-entry-name>
+        <env-entry-type>java.lang.Boolean</env-entry-type>
+        <env-entry-value>true</env-entry-value>
+    </env-entry>
+
     <filter>
         <filter-name>encoding-filter</filter-name>
         <filter-class>
