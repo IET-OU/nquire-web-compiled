@@ -10,7 +10,7 @@
       nQuire-it - backend and web-service API for nQuire-it (Java class binaries).
 
       License: GNU GPL-3.0+ (https://gnu.org/licenses/gpl.html)
-      Copyright © 2014-2018 The Open University (IET-OU).
+      Copyright © 2014-2019 The Open University (IET-OU).
     -->
 
     <import resource="database.xml"/>

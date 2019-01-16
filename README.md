@@ -4,7 +4,7 @@
 
 # nQuire-it – compiled
 
-This respository contains the compiled Java classes for the nQuire-it web site.
+This repository contains the compiled Java classes for the nQuire-it web site.
 
 * <http://www.nquire-it.org>
 
@@ -41,13 +41,14 @@ nQuire-it is released under the GPLv3 licence. See [LICENSE][] for more details.
 Contributors:  [@evilfier][] (original developer), [@richlove1][], [@nfreear][].
 
 ---
-© 2014-2018 [The Open University][ou] ([Institute of Educational Technology][iet]).
+[©][c] 2014-2019 [The Open University][ou] ([Institute of Educational Technology][iet]).
 
 
 [`IET-OU/nquire-web-source`]: https://github.com/IET-OU/nquire-web-source
 [`IET-OU/nquire-web-source/issues`]: https://github.com/IET-OU/nquire-web-source/issues
-[ou]: http://www.open.ac.uk/
-[iet]: http://iet.open.ac.uk/
+[ou]: https://www.open.ac.uk/
+[iet]: https://iet.open.ac.uk/
+[c]: https://www.open.ac.uk/copyright "Copyright © 2014-2019 The Open University (IET)."
 [gpl]: https://gnu.org/licenses/gpl.html
 [LICENSE]: https://github.com/IET-OU/nquire-web-source/blob/1.2-branch/LICENSE.txt
     "GNU General Public License 3.0 onwards [GPL-3.0+]"
